@@ -1,5 +1,5 @@
 # A Python Journey
-ETEC Workshop
+ETEC Workshop part 2
 
 
 ```
@@ -10,7 +10,7 @@ install libedit-dev
 install poetry
 install heroku-cli
 
-
+Sempre rodar nesta ordem
 heroku buildpacks:clear
 heroku buildpacks:add https://github.com/moneymeets/python-poetry-buildpack.git
 heroku buildpacks:add heroku/python
